@@ -1,0 +1,84 @@
+/* inserimento pattern e colore sotto al logo*/
+header {
+    background-color: #007fff;
+    background-image: url("../pattern.png")
+   
+}
+/* modifica logo*/
+#logo {
+   width: 25%;
+   height: 90px;
+   padding-top: 4%;
+   background-image: "logo.svg""
+}
+/* parte parziale dellìintestazione colore blue */
+#blue {
+   color: blue;
+}
+/* modifica dimensioni titolo*/
+h1 {
+   font-size: 60px;
+   margin: 10px;
+}
+/* modifica intestazione*/
+.intestazione {
+   border-top: 5%;
+   padding-bottom: 5%;
+   padding-left: 1%;
+}
+/* modifica sotto-intestazione*/
+.sotto-intestazione {
+   margin: 1px;
+}
+/* evidenziamento in giallo di una parte di testo*/
+.giallo {
+   background-color: yellow;
+
+}
+/*colorazione parte head della tabella*/
+th {
+   background-color: blueviolet;
+   color: white;
+
+}
+/*colorazione resto della tabella*/
+.tabella {
+   width: 50%;
+   background-color: aqua;
+}
+.colore {
+   background-color: aqua;
+}
+/* modifica margin dei testi principali del sito*/
+.testo {
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+h2 {
+   color: grey;
+}
+/*inserimento immagini e modifica aside*/
+#testo-immagine1 {
+   background-image: url("../monitor.jpg");
+   height: 200px;
+   width: 300px;
+   color: white;
+   font-weight: 700;
+   padding: 20px;
+   font-size: large;
+
+}
+#testo-immagine2 {
+   background-image: url("../graph.jpg");
+   height: 200px;
+   width: 300px;
+   color: white;
+   font-weight: 700;
+   padding: 20px;
+   font-size: large;
+}
+main, aside {
+   margin: auto;
+   width: 50%;
+   
+}
