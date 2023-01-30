@@ -1,7 +1,17 @@
 header {
-     background-color: blueviolet;
+     background-color: #007fff;
+     background-image: url("../pattern.png")
+    
 }
-#pattern {
-    width: 100%;
-    height: 200px;
+#logo {
+    width: 25%;
+    height: 90px;
+    padding-top: 4%;
+    background-image: "logo.svg""
+}
+#blue {
+    color: blue;
+}
+h1 {
+    font-size: 60px;
 }
